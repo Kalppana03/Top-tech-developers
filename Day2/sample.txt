@@ -1,0 +1,3 @@
+Hello, this is a file handling demo in Python.
+We are writing some sample text.
+This line is added using append mode.
