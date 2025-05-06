@@ -1,0 +1,21 @@
+a=[10,20,30,40]
+b=[1000,"Hello","Good",20.5]
+a.append("Hello")
+print("List after appending:",a)
+a.clear()
+print("List after clearing:",a)
+a.extend([50,60,70,80,90])
+print("List after extending:",a)
+a.insert(3,100)
+print("List after inserting an element:",a)
+print("Length of the list:",len(a))
+a.sort(reverse=True)
+print("list after sorting:",a)
+b=a.copy()
+print("Copying b into a:",b)
+del a[:1]
+print("Deleting 1st element:",a)
+a.remove(60)
+print("Removing 100 from the list:",a)
+a.pop()
+print("Deleting the last element:",a)

@@ -1,0 +1,14 @@
+a=10
+b="Hello"
+c=20.5
+d=20+6j
+e=True
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type([1,2,3]))
+print(type((23,54,6)))
+print(type({1:"w",2:"n"}))
+print(type({10,20,30}))

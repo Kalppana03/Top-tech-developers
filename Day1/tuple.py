@@ -1,0 +1,8 @@
+b=("s","q","d","c","d")
+print("Length of the tuple: ",len(b))
+c=sorted(b)
+print("Tuple after sorting:",c)
+print("Converting tuple into list:",list(b))
+print("Tuple indexing:",b[2:])
+print("Count of d in the tuple:",b.count("d"))
+print("Index of q:",b.index("s"))
